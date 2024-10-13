@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+    <header>
+        <title>Willkommen!</title>
+        <style>
+            .Kopfzeile {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            }           
+
+            .Linktext {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 28px;
+                background-color: #CDEDED;
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                width: 210px;
+            }
+            .Linktext:hover {
+                background-color: #2c4646;
+                color:white;
+            }
+ 
+            .sep3 {
+                width: 400px;
+                height: 20px;
+                background-color: rgb(32, 53, 46);
+            }
+            @media (min-width: 1200px) {
+                      
+                .sepimg {
+                    width: 170px;
+                    background-color: white;
+                    padding: 0px;
+                }
+            }
+            @media (max-width: 1199px) {
+                      
+                .sepimg {
+                    width: 90px;
+                    background-color: white;
+                    padding: 0px;
+                }
+            }
+            @media (max-width: 1000px) {
+                      
+                .sepimg {
+                    width: 0px;
+                    background-color: white;
+                    padding: 0px;
+                }
+            }
+            @media (max-width: 700px) {
+
+                .Linktext {
+                font-size: 18px;
+                padding-left: 3px;
+                padding-right: 3px;
+                height: 30px;
+            }
+            }
+
+        </style>
+    </header>
+    <body>
+        <table class="Kopfzeile">
+            <tbody>
+                <td class="Linktext"> Ferienwohnung </td> 
+                <td><img class="sepimg" src="tree-ll.jpg" alt="Baum"></td>
+                <td class="Linktext"> Buchen </td> 
+                <td><img class="sepimg" src="tree-ll.jpg" alt="Baum"></td>
+                <td class="Linktext"> Cuxhaven </td> 
+                <td><img class="sepimg" src="tree-ll.jpg" alt="Baum"></td>
+                <td class="Linktext"> Kontakt </td> 
+            </tbody>
+        </table>
+
+        <!-- <div class="sep3">
+        </div> -->
+        <div>
+            <img src="garden_main.jpg" class="Kopfzeile">
+        </div>
+    </body>
+</html>
